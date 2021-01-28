@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-input{
+  width: 330px!important;
+}
+
+.bg-success{
+  background-color: #67960a!important;
+}
+
+.text-success{
+  color: #67960a!important;
+}
+
+.btn-success{
+  background-color: #67960a!important;
+  border-color: #88C80B!important;
+}
+
+.btn-outline-success{
+  color: #67960a!important;
+  border-color: #88C80B!important;
+}
+
+.title-menu-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.best-seller{
+  background-color: #67960a;
+  color: #fff;
+  padding: 5px;
+}
+
+.single-product-img{
+  width: 200px;
+  height: 280px;
+}
+
+.cart-input{
+  width: 80px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #67960a;
+  margin-top: 10px;
+  padding-left: 10px ;
+}
+
+.title-bars{
+  font-size: 26px;
+  color: #67960a;
+}
+
+.title-bars i{
+  cursor: pointer;
+}
+
+#side-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  min-height: 100vh;
+  background-color: #67960a;
+  color: #fff;
+  display: none;
+  z-index: 5;
+}
+
+.main-body{
+  background-color: #c7fd598a;
+}
+
+.carousel-item img{
+  height: 300px;
+}
+
+.offer .col-md-4 img{
+  height: 100px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 295px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #67960a;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #72a709;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #67960a;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #b9f83bbb;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media(max-width: 400px){
+  .search-input{
+    width: 230px!important;
+  }
+
+  .cart-image{
+    display: none;
+  }
+
+  .extra-sidebar{
+    display: none;
+  }
+}
